@@ -1,0 +1,24 @@
+{
+  "name": "@lienhoatienphung-svg/x402-base-paywall-sdk",
+  "version": "1.0.0",
+  "description": "Zero-dependency HTTP 402 (x402) Base Mainnet USDC Paywall & On-Chain Verifier CLI/SDK",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "x402-paywall": "./index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs --demo",
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "x402",
+    "http-402",
+    "base",
+    "usdc",
+    "ai-agent",
+    "paywall",
+    "ethereum"
+  ],
+  "license": "MIT"
+}
